@@ -13,7 +13,7 @@ function doTips() {
     setInterval(() => {
         if (countDown === 0) {
             if (needTips) return
-            window.location.href="https://testinvite.jchhzp.com"
+            window.location.href="https://jch-invite.github.io/jch-tiao/"
         } else {
             countDown--;
             node.innerText = `${countDown}s后跳转到下一页面`
